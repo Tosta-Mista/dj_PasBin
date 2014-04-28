@@ -2,8 +2,6 @@
 from django.db import models
 from pygments import highlight
 from pygments.formatters.html import HtmlFormatter as Formatter
-from pygments.lexers.parsers import PythonLexer as Lexer
-
 
 
 class CodePaste(models.Model):
